@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Meter_Display")(type "KiCad")(uri "${KIPRJMOD}/Meter_Display.kicad_sym")(options "")(descr ""))
+)
