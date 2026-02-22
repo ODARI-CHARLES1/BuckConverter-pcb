@@ -1,0 +1,64 @@
+# KiCad project gitignore
+
+# Backup files
+*-backup/
+*_backup/
+*_bak/
+*.bak
+
+# Auto-save files
+*~
+*.000
+*.001
+*.002
+*.003
+*.004
+*.005
+*.006
+*.007
+*.008
+*.009
+#auto_saved_files#
+_autosave-*
+
+# KiCad lock files
+*.lck
+
+# Generated files
+fp-info-cache
+*.net
+*.cmp
+*.pos
+*.drl
+*.gbr
+*.gko
+*.gtp
+*.gbo
+*.gbs
+*.gbrjob
+
+# PDF exports (can be regenerated)
+*-pdf/
+*_pdf/
+*_plots/
+*_output/
+
+# Simulation files (optional - uncomment if needed)
+# Simulations/*.pdsprj
+# Simulations/Project Backups/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Text editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
