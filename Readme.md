@@ -8,6 +8,7 @@ A KiCad-based Buck Converter (step-down voltage regulator) design project.
 
 This project contains the PCB design and simulations for a buck converter circuit. The design uses popular buck converter ICs (LM2596 or MP1584) for efficient DC-DC voltage step-down.
 
+
 ## Project Structure
 
 ```
