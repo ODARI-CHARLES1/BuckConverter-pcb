@@ -2,6 +2,8 @@
 
 A KiCad-based Buck Converter (step-down voltage regulator) design project.
 
+![1771747208257](image/Readme/1771747208257.png)
+
 ## Project Overview
 
 This project contains the PCB design and simulations for a buck converter circuit. The design uses popular buck converter ICs (LM2596 or MP1584) for efficient DC-DC voltage step-down.
@@ -50,6 +52,7 @@ Simulation files are located in the `Simulations/` directory. These contain circ
 ## Custom Footprints
 
 Custom footprints for the LED voltmeter display are stored in:
+
 - `Meter_Display_Footprints.pretty/`
 
 ## Version History
