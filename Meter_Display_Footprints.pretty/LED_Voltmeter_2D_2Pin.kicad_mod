@@ -1,0 +1,146 @@
+(footprint "LED_Voltmeter_2D_2Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "816357b9-7ddd-4781-b417-b883d2db9770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_Voltmeter_2D_2Pin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd315d89-6126-478b-8758-05823d34777d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20e32ccc-201f-4d3b-bf40-3515475f1282")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28c8c9aa-e477-4c64-bf93-fe2aa2860e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "VCC"
+		(at -6.5 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "302d2d88-e2a3-46c9-bb8a-03d2b612cf26")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -6.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d8be69e-2be2-4d19-afcc-b0f0cc0487cc")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "LED_Voltmeter_2D_2Pin"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "983bb314-6d34-49b2-8058-113a4ef6fcac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "860d08c3-feb7-44a5-aed1-44e2294ed7b8")
+	)
+	(pad "2" thru_hole circle
+		(at -7.62 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a33ea793-f6a1-48b6-8abc-8c72ca14b0ba")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "30fb4cfc-74b3-4b47-b04c-a3b202c574ba")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -10 -17) (xy 10 -17) (xy 10 17) (xy -10 17)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
